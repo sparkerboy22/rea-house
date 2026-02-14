@@ -7,10 +7,8 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
     <style>
         * {
              font-family: "Manrope", sans-serif;
@@ -18,6 +16,55 @@
     </style>
 </head>
 <body>
-    
+    <section class="grid grid-cols-1 md:grid-cols-2 container mx-auto">
+        <div class="banner-left">
+            <h2 class="text-[80px] font-bold">It's good <br>
+              tea time at The<br> Tea House</h2>
+              <p class="text-[#777777] my-[30px]" >Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+              <button class="py-3 px-2 rounded-md text-white font-semibold bg-linear-to-r from-[#ff8938] to-[#ff0000]
+         ">Explore More<span class="-rotate-45 inline-block"><i class="fa-solid fa-arrow-right"></i></span></button>
+        </div>
+        <div class="banner-right flex justify-end items-end relative">
+            <img src="./images/banner.png  ">
+             <div class="bg-white rounded-3xl shadow-2xl flex justify-center gap-2items-center w-[250px] absolute bottom-[15px] left-[220px] py-[25px] px-[15px]">
+                <img src="./images/Group 5.png">
+                   <div>
+                        <h2 class="font-semibold text-2xl">5.00</h2>
+                       <p class="text-[#777777]">Trust Rating</p>
+                       </div>
+             </div>
+        </div>
+    </section>
+
+    <section class="container mx-auto my-[90px] ">
+        <div class="text-center max-w-[65%] mx-auto mb-[50px]">
+            <h2 class="font-semibold text-[45px]">Our Featured Products</h2>
+            <p class="text-[#777777]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        </div>
+
+        <div class=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="bg-linear-to-b from-[#f4f4f4] to-[#f4f4f4] p-7 text-center rounded-md ">
+                  <img src="./images/tea-1.png" class="mx-auto mb-4">
+                <h2 class="font-semibold text-xl">Milk Tea</h2>
+                <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+            </div>
+              <div class="bg-linear-to-b from-[#f4f4f4] to-[#f4f4f4] p-7 text-center rounded-md">
+                  <img src="./images/tea-2.png" class="mx-auto mb-4">
+                <h2 class="font-semibold text-xl">Black Tea</h2>
+                <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+            </div>
+              <div class="bg-linear-to-b from-[#f4f4f4] to-[#f4f4f4] p-7 text-center rounded-md ">
+                  <img src="./images/tea-3.png" class="mx-auto mb-4">
+                <h2 class="font-semibold text-xl">Lemon Tea</h2>
+                <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+            </div>
+              <div class="bg-linear-to-b from-[#f4f4f4] to-[#f4f4f4] p-7 text-center rounded-md">
+                  <img src="./images/tea-4.png" class="mx-auto mb-4">
+                <h2 class="font-semibold text-xl">Green Tea</h2>
+                <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+            </div>
+
+        </div>
+    </section>
 </body>
 </html>
